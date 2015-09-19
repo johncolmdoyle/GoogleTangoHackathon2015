@@ -62,7 +62,7 @@ public class StartGameButton : TouchableObject
     protected override void TouchUp()
     {
         content.gameObject.transform.localScale = untouchedScaleSize;
-        Application.LoadLevel("ExperimentalPersistentState_GameScene");
+        Application.LoadLevel(1);
     }
 
     /// <summary>
